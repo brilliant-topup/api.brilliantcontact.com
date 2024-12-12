@@ -1,0 +1,12 @@
+GET /api/v1/contacts/{contact_id}
+Host: api.brilliantcontact.com
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxMjM0NTY3ODkwLCJleHAiOjE2MzAwODgxOTl9.rV6Iei7Fh4G4n7UiX8Y6t3KlTQzCyMk1az3JDoq5BhQ
+
+Content-Type: application/json
+{
+    "id": "contact_id",
+    "name": "AB SIHABUR RAHMAN",
+    "email": "sihaburrahman383@gmail.com",
+    "phone": "+8801400474618",
+    "address": "Division: Rajshahi, District: Sirajganj, Thana: Shahzadpur"
+}
